@@ -1,0 +1,31 @@
+html {
+	font-family: Verdana, sans-serif;
+}
+
+a {
+	color: #000000;
+	font-weight: 500;
+	-webkit-transition: 0.2s color;
+	transition: 0.2s color;
+  }
+  
+  a:hover, a:focus {
+	color: #602749;
+	text-decoration: none;
+	outline: none;
+  }
+
+  .btn-outline-ooshop{color:#602749;border-color:#602749}.btn-outline-ooshop:hover{color:#fff;background-color:#602749;border-color:#602749}.btn-outline-ooshop.focus,.btn-outline-ooshop:focus{box-shadow:0 0 0 .2rem rgba(75, 49, 97, 0.5)}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
